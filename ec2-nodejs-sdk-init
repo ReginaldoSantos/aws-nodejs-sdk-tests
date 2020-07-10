@@ -1,0 +1,16 @@
+#!/bin/bash
+
+################################################
+# Init Script For EC2 with:
+#
+#   - update yum
+#   - installing git
+#   - installing nodejs
+#   - changing npm registry: https => http
+#
+################################################
+
+yum update -y
+yum install git -y
+yum install nodejs npm --enablerepo=epel -y
+npm config set registry http://registry.npmjs.org/
