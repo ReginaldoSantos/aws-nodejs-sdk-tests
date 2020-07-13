@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ReginaldoSantos/aws-nodejs-sdk-tests#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "aws-sdk": "~2.713.0"
   }
 }
